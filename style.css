@@ -1,0 +1,151 @@
+/*MARIO*/
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 50px;
+  /*max-width: 55em;*/
+  font-family: "Helvetica";
+  /* "Arial", sans-serif;*/
+  background-image: url("mario_img/main_bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  background-color: #e30000;
+}
+
+.navbar {
+  position: fixed;
+  top: -1px;
+  left: 0;
+  width: 100%;
+  background-color: #eee;
+  padding: 0px 10px;
+  z-index: 1;
+  margin: 1px 0px;
+  color: #555;
+}
+
+.navbar h2 {
+  width: 57%;
+  float: left;
+  color: #555;
+  font-size: 17px;
+  padding: 0px 0px 0px 15px;
+  margin: 17px 0px;
+}
+
+.nav-links {
+  width: 42%;
+  float: left;
+  margin: 15px 0px 0px 0px;
+  font-size: 18px;
+  padding: 0 10px 0px 70px;
+  text-align: right;
+}
+
+.nav-links a {
+  color: #555;
+  text-decoration: none;
+  padding: 0 10px 0px 30px;
+}
+
+.mainhead {
+  position: relative;
+  margin: auto;
+  background: url("mario_img/mb_r2.png");
+  background-color: #e30000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 135px 0px;
+}
+
+.container {
+  width: 700px;
+  background-color: #eee;
+  border: 8px solid #e30000;
+  margin: 15px auto;
+  border-radius: 20px;
+  padding: 20px 10px;
+}
+.container-inner {
+  display: flex;
+}
+
+.badges {
+  margin: 10px 0px 0px 0px;
+  border: 8px solid #eee;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.box-a {
+  flex: 1;
+  background-color: #eee;
+}
+
+.box-b {
+  flex:1;
+  flex-grow: 2;
+  background-color: #eee;
+}
+
+.calc{
+  width: 100%;
+  background-color: #A9A9A9;
+  padding: 20px;
+}
+
+footer {
+  background-color: #eee;
+  padding: 20px 0px;
+  margin: auto;
+  text-align: center;
+}
+
+
+.btn {
+  width: 80px;
+  height: 30px;
+  margin: auto;
+  background-color: gold;
+  border-radius: 5px;
+}
+
+button {
+  font-size: 14px;
+}
+/*
+input{
+  width: 32%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}*/
+
+
+/*.box-d{
+  float: left;
+  width: 75%;
+  height: 200px;
+  background-color: #8DC63F;
+  border: 10px solid white;
+}
+
+.box-e{
+  float: left;
+  width: 25%;
+  height: 200px;
+  background-color: #E76E34;
+  border: 10px solid white;*/

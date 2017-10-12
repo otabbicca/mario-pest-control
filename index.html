@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mario Pest Control</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <h2>Services</h2>
+      <div class="nav-links">
+        <a href="#">Cheep cheeps</a>
+        <a href="#">Goombas</a>
+        <a href="#">Bob ombs</a>
+      </div>
+    </nav>
+  </header>
+
+  <div class="mainhead">
+  </div>
+  <div class="container">
+    <div class="container-inner">
+      <div class="box-a">
+        <img class="badges" src="mario_img/Cheep_g.png" />
+      </div>
+      <div class="box-b">
+        <h2>Cheep Cheeps</h2>
+        <h4>Price: 11 Coins</h4>
+      </div>
+    </div>
+    <div class="calc">
+      <label>Price</label>
+      <input type="number" id="cheep-price" value="11" />
+      <p>
+        <label>Baddy Caught</label>
+        <input type="number" id="cheep-caught" value="5" /></p>
+      <button id="cheep-submit" class="btn">Get Price</button>
+      <p id="cheep-total"></p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="container-inner">
+      <div class="box-a">
+        <img class="badges" src="mario_img/GOOMBA.png" />
+      </div>
+      <div class="box-b">
+        <h2>Goomba</h2>
+        <h4>Price: 5 Coins</h4>
+      </div>
+    </div>
+    <div class="calc">
+      <label>Price</label>
+      <input type="number" id="goomba-price" value="5" />
+      <p>
+        <label>Baddy Caught</label>
+        <input type="number" id="goomba-caught" value="12" /></p>
+      <button id="goomba-submit" class="btn">Get Price</button>
+      <p id="goomba-total"></p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="container-inner">
+      <div class="box-a">
+        <img class="badges" src="mario_img/bobomb11.png" />
+      </div>
+      <div class="box-b">
+        <h2>Bobombs</h2>
+        <h4>Price: 8 Coins</h4>
+      </div>
+    </div>
+    <div class="calc">
+      <label>Price</label>
+      <input type="number" id="bobomb-price" value="7" />
+      <p>
+        <label>Baddy Caught</label>
+        <input type="number" id="bobomb-caught" value="8" /></p>
+      <button id="bobomb-submit" class="btn">Get Price</button>
+      <p id="bobomb-total"></p>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2>Total coins for all baddies caught: <span id="total-all"></span></h2>
+  </div>
+
+  <footer>
+    <h4>Email: supermario@vschool.com / Web: www.mpest.com / Address: MiT, Cape Coast.</h4>
+  </footer>
+  <script src="app.js"></script>
+</body>
+
+</html>
